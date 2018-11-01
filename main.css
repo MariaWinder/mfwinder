@@ -34,12 +34,17 @@ h1 {
 }
 
 h2{
-  font-size: 30pt;
+  font-size: 37pt;
+}
+
+h3{
+  font-size: 20pt;
 }
 
 a {
- color: pink;
- text-decoration:none;
+ color: red;
+ text-decoration: underline;
+ display: block;
 }
 
 img {
@@ -51,6 +56,7 @@ img {
 
 p {
   display: inline-block;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .col{
@@ -60,4 +66,20 @@ p {
   text-align: left;
   width: 45%;
   padding:15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.video{
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.website{
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
