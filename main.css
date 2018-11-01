@@ -9,7 +9,7 @@ header{
     display: block;
     text-align: center;
     margin-bottom: 65px;
-    border-bottom: solid #C2C2C2 3px;
+    border-bottom: solid #35838A 3px;
 }
 
 .MariaWinder{
@@ -42,9 +42,10 @@ h3{
 }
 
 a {
- color: red;
+ color: #35838A;
  text-decoration: underline;
  display: block;
+ font-size: 37pt;
 }
 
 img {
@@ -82,4 +83,35 @@ p {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+}
+
+.kale{
+  margin-top: 40px;
+}
+
+.photo{
+  margin: 5px;
+  display:inline-block;
+  vertical-align:bottom;
+  text-align: center;
+  width: 45%;
+  padding: 0px;
+  margin: 0;
+}
+
+.topphoto{
+  padding: 15px;
+  margin-top: 40px;
+
+}
+
+.infophoto{
+  display: block;
+  text-align: left;
+}
+.apy{
+  margin-left: 150px;
+}
+.mediumphoto{
+  margin-left: 270px;
 }
