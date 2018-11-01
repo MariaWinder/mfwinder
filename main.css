@@ -1,84 +1,63 @@
 html{
-  background-color: #B1E9FF;
+  background-color: #E2E8E4;
 }
 
 header{
+    margin-top: 0;
+    padding-top: 0;
     text-decoration: none;
     display: block;
+    text-align: center;
+    margin-bottom: 65px;
+    border-bottom: solid #C2C2C2 3px;
 }
 
 .MariaWinder{
     margin-bottom: 0;
-    font-size: 40pt;
-    text-align: left;
+    font-size: 85pt;
+    display: inline-block;
 }
-
-nav{
-    list-style:none;
-    padding: 0;
-}
-
-ul{
-    list-style-type: none;
-}
-
-li{
-    text-align: center;
-}
-
 
 body {
+  margin-top: 0;
   margin: 30px auto;
-  max-width: 60%;
-  font-family: "Helvetica", "Arial", sans-serif;
+  max-width: 80%;
+  min-width: 40%;
   line-height: 1.5;
   padding: 30px 20px;
   text-align: left;
+  font-family: 'Poiret One', cursive;
 }
 
 h1 {
   padding: 20px 0px 10px 0px;
 }
 
+h2{
+  font-size: 30pt;
+}
+
 a {
-color: pink;
-text-decoration:none;
+ color: pink;
+ text-decoration:none;
 }
 
 img {
-  display: block;
+  display: inline-block;
+  text-align: left;
   margin: 0px auto;
-  width: 100%;
+  margin-bottom: 0px;
 }
 
-.portfolio-item {
-  margin-top: 60px;
-  padding: 40px;
+p {
+  display: inline-block;
 }
 
-@media screen and (min-width:700px){
-
-     body{
-         margin: auto;
-     }
-     header{
-         text-align: left;
-         margin-bottom: 65px;
-         border-bottom: solid #C2C2C2 3px;
-     }
-     .MariaWinder{
-         font-size: 65pt;
-         display: inline-block;
-         margin-bottom: 20px;
-     }
-     nav{
-         display: inline-block;
-     }
-     ul{
-         padding-left: 0;
-         margin-left: 15px;
-     }
-
-     h1{
-       text-align: center;
-     }
+.col{
+  margin: 5px;
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 45%;
+  padding:15px;
+}
