@@ -76,6 +76,7 @@ p {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .website{
@@ -83,6 +84,7 @@ p {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .kale{
@@ -92,7 +94,7 @@ p {
 .photo{
   margin: 5px;
   display:inline-block;
-  vertical-align:bottom;
+  vertical-align:top;
   text-align: center;
   width: 45%;
   padding: 0px;
@@ -107,11 +109,42 @@ p {
 
 .infophoto{
   display: block;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.cards{
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 30%;
+  margin-top: 55px;
+  margin-bottom: 40px;
+  margin-right: 0;
+}
+
+.cardstext{
+  display:inline-block;
+  vertical-align: top;
   text-align: left;
+  width: 30%;
+  padding: 15px;
+  margin-bottom: 40px;
+  margin-right: 0;
 }
-.apy{
-  margin-left: 150px;
+
+.festtext{
+  margin: 5px;
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 45%;
+  padding:15px;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
-.mediumphoto{
-  margin-left: 270px;
+
+footer{
+  text-align: center;
+  margin-top: 30px;
 }
