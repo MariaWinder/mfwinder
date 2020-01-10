@@ -6,16 +6,53 @@ header{
     margin-top: 0;
     padding-top: 0;
     text-decoration: none;
-    display: block;
+    display:center;
     text-align: center;
     margin-bottom: 65px;
     border-bottom: solid #35838A 3px;
 }
 
+nav{
+  text-decoration: none;
+  display:grid;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: gray;
+}
+
+.active {
+  background-color: #35838A;
+}
+
+
 .MariaWinder{
     margin-bottom: 0;
     font-size: 85pt;
     display: inline-block;
+    color: #333;
 }
 
 body {
