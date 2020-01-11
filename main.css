@@ -6,10 +6,11 @@ header{
     margin-top: 0;
     padding-top: 0;
     text-decoration: none;
-    display:center;
+    display: flex;
     text-align: center;
-    margin-bottom: 65px;
-    border-bottom: solid #35838A 3px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: solid #35838A;
 }
 
 nav{
@@ -24,6 +25,8 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  min-width: 500px;
+  max-width: 1000px;
 }
 
 li {
@@ -36,6 +39,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 15pt;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -71,18 +75,18 @@ h1 {
 }
 
 h2{
-  font-size: 37pt;
+  font-size: 30pt;
 }
 
 h3{
-  font-size: 20pt;
+  font-size: 15pt;
 }
 
 a {
  color: #35838A;
  text-decoration: underline;
  display: block;
- font-size: 37pt;
+ font-size: 30pt;
 }
 
 img {
@@ -95,6 +99,7 @@ img {
 p {
   display: inline-block;
   font-family: 'Nanum Gothic', sans-serif;
+  font-size: 11pt;
 }
 
 .col{
