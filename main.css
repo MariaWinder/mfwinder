@@ -3,20 +3,7 @@ html{
 }
 
 header{
-    margin-top: 0;
-    padding-top: 0;
-    text-decoration: none;
-    display: flex;
-    text-align: center;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
     border-bottom: solid #35838A;
-}
-
-nav{
-  text-decoration: none;
-  display:grid;
-  display: flex;
 }
 
 ul {
@@ -27,6 +14,9 @@ ul {
   background-color: #333;
   min-width: 500px;
   max-width: 1000px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li {
@@ -44,7 +34,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: gray;
+  background-color: #111;
 }
 
 .active {
@@ -68,10 +58,6 @@ body {
   padding: 30px 20px;
   text-align: left;
   font-family: 'Poiret One', cursive;
-}
-
-h1 {
-  padding: 20px 0px 10px 0px;
 }
 
 h2{
