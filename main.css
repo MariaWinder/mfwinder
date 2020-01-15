@@ -73,8 +73,10 @@ a {
  color: #35838A;
  text-decoration: underline;
  display: block;
- font-size: 30pt;
+ font-size: 15pt;
 }
+
+
 
 img {
   display: inline-block;
@@ -114,6 +116,13 @@ p {
   padding: 15px;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.website a{
+  color: #35838A;
+  text-decoration: underline;
+  display: block;
+  font-size: 30pt;
 }
 
 .kale{
