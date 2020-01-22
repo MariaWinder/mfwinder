@@ -99,6 +99,16 @@ iframe{
   padding: 0;
 }
 
+.obladi{
+
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
+  max-width: 27%;
+  margin: 0;
+  padding: 0;
+}
+
 footer{
   text-align: center;
 }
@@ -283,6 +293,17 @@ p {
   width: 45%;
   padding:15px;
   margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.obladi{
+
+  display:inline-block;
+  vertical-align: top;
+  text-align: left;
+  width: 15%;
+  padding:3px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
