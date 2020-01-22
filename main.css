@@ -74,26 +74,18 @@ a {
 p{
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 8pt;
+  max-width: 75%;
 }
 
 img {
-  display: inline-block;
+
   text-align: center;
+  align-content: center;
   margin: 0px auto;
   margin-top: 10px;
   margin-bottom: 0px;
-  max-width: 60%;
+  max-width: 75%;
   height: auto;
-}
-
-.photo{
-  margin: 0px;
-  display:inline-block;
-  vertical-align:top;
-  text-align: center;
-  width: 25%;
-  padding: 0px;
-  margin: 0;
 }
 
 .work{
@@ -101,6 +93,11 @@ img {
   color: #333;
 }
 
+iframe{
+  max-width: 75%;
+  margin: 0;
+  padding: 0;
+}
 
 footer{
   text-align: center;
