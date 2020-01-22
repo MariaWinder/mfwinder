@@ -96,6 +96,11 @@ img {
   margin: 0;
 }
 
+.work{
+  margin-top: 70px;
+  color: #333;
+}
+
 
 footer{
   text-align: center;
@@ -105,10 +110,19 @@ footer{
 @media screen and (min-width:700px){
 
 .MariaWinder{
+      margin-top: 0;
       margin-bottom: 0;
-      font-size: 60pt;
+      font-size: 50pt;
       display: inline-block;
       color: #333;
+  }
+
+  .work{
+    font-size: 45pt;
+    margin-top: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #333;
   }
 
 body {
