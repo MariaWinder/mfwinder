@@ -76,6 +76,27 @@ p{
   font-size: 8pt;
 }
 
+img {
+  display: inline-block;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  max-width: 60%;
+  height: auto;
+}
+
+.photo{
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+  text-align: center;
+  width: 25%;
+  padding: 0px;
+  margin: 0;
+}
+
+
 footer{
   text-align: center;
 }
