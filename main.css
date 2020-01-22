@@ -114,7 +114,7 @@ footer{
 }
 
 
-@media screen and (min-width:700px){
+@media screen and (min-width:800px){
 
 .MariaWinder{
       margin-top: 0;
@@ -125,7 +125,7 @@ footer{
   }
 
   .work{
-    font-size: 45pt;
+    font-size: 30pt;
     margin-top: 50px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -297,7 +297,6 @@ p {
 }
 
 .obladi{
-
   display:inline-block;
   vertical-align: top;
   text-align: left;
