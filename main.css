@@ -19,7 +19,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: black;
-  min-width: 500px;
+  min-width: 100px;
   max-width: 1000px;
   position: fixed;
   top: 0;
@@ -98,7 +98,7 @@ img {
 
 .work{
   margin-top: 70px;
-  color: #333;
+  color: black;
 }
 
 iframe{
@@ -116,6 +116,17 @@ iframe{
   margin: 0;
   padding: 0;
 }
+
+.image {
+  text-align: center;
+  align-content: center;
+  margin: 0px auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  height: auto;
+}
+
 
 footer{
   text-align: center;
@@ -212,16 +223,6 @@ p {
   margin-bottom: 40px;
 }
 
-.colcat{
-  margin: 5px;
-  display:inline-block;
-  vertical-align: top;
-  text-align: left;
-  width: 20%;
-  padding:15px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
 
 .video{
   display: block;
